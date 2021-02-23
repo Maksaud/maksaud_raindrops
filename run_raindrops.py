@@ -11,7 +11,6 @@ def print_all_factors(n):
 
 # This function will determine if the given number outputs Pling Plang or Plong and the factors of that number
 def pling_plang_plong(n):
-    print_all_factors(n)
     if check_num(n, 5) and check_num(n, 3) and check_num(n, 7):
         return ('PlingPlangPlong')
     elif check_num(n, 5) and check_num(n, 3):
@@ -24,7 +23,7 @@ def pling_plang_plong(n):
         return ('Pling')
     elif check_num(n, 5):
         return ('Plang')
-    elif check_num(n, 9):
+    elif check_num(n, 7):
         return ('Plong')
     else:
         return n

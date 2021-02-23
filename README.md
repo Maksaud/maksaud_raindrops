@@ -8,7 +8,7 @@ https://github.com/Maksaud/maksaud_raindrops
 ## Pre-requirements
 ```
 Python 3
-pytest (for testing)
+pytest 6.2.2(for testing)
 ```
 
 ## The App

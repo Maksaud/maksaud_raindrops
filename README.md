@@ -8,6 +8,7 @@ https://github.com/Maksaud/maksaud_raindrops
 ## Pre-requirements
 ```
 Python 3
+pytest (for testing)
 ```
 
 ## The App
@@ -26,10 +27,11 @@ To run the app go the the file's directory on your terminal and type:
 py main_raindrops
 ```
 
+## Test
 To run tests go the the fil's dierctory on your terminal and type:
 
 ```bash
-python test.py
+pytest
 ```
 ## File contents
 ```

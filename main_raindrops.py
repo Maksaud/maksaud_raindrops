@@ -4,5 +4,5 @@ from run_raindrops import *
 n = ''
 while n != 'exit':
     n = int(input("Enter a number: "))
-    print_all_factors(n)
+    print(print_all_factors(n))
     print(pling_plang_plong(n))

@@ -7,7 +7,7 @@ def print_all_factors(n):
    print("The factors of",n,"are:")
    for i in range(1, n + 1):
        if n % i == 0:
-           return i
+           print(i)
 
 # This function will determine if the given number outputs Pling Plang or Plong and the factors of that number
 def pling_plang_plong(n):
